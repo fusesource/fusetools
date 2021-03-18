@@ -107,12 +107,12 @@
          version="0.0.0"
          unpack="false"/>
 
-   <plugin
+   <!--plugin
          id="org.fusesource.ide.catalogs"
          download-size="0"
          install-size="0"
          version="0.0.0"
-         unpack="false"/>
+         unpack="false"/ -->
 
    <plugin
          id="org.fusesource.ide.launcher"

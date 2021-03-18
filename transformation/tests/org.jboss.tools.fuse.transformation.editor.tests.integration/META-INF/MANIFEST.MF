@@ -4,7 +4,7 @@ Bundle-Name: %Bundle-Name
 Bundle-SymbolicName: org.jboss.tools.fuse.transformation.editor.tests.integration
 Bundle-Version: 11.10.0.qualifier
 Bundle-Vendor: %Bundle-Vendor
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  org.eclipse.core.resources,

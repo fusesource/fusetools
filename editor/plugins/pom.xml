@@ -13,7 +13,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 	<modules>
                 <module>org.fusesource.ide.branding</module>
                 <module>org.fusesource.ide.camel.editor</module>
-                <module>org.fusesource.ide.catalogs</module>
+                <!-- <module>org.fusesource.ide.catalogs</module> -->
                 <module>org.fusesource.ide.launcher</module>
                 <module>org.fusesource.ide.launcher.ui</module>
                 <module>org.fusesource.ide.project</module>

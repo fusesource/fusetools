@@ -4,7 +4,7 @@ Bundle-Name: Red Hat Fuse Tooling Karaf server core integration tests
 Bundle-SymbolicName: org.fusesource.ide.server.karaf.core.tests.integration;singleton:=true
 Bundle-Version: 11.10.0.qualifier
 Bundle-Vendor: Red Hat
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Require-Bundle: org.junit;bundle-version="4.12.0",
  org.jboss.tools.locus.mockito;bundle-version="1.9.5",
  org.assertj.core;bundle-version="2.1.0",

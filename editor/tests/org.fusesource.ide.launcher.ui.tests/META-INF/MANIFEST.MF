@@ -5,7 +5,7 @@ Bundle-SymbolicName: org.fusesource.ide.launcher.ui.tests
 Bundle-Version: 11.10.0.qualifier
 Bundle-Vendor: %Bundle-Vendor
 Fragment-Host: org.fusesource.ide.launcher.ui;bundle-version="10.0.0"
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Require-Bundle: org.junit;bundle-version="4.12.0",
  org.jboss.tools.locus.mockito;bundle-version="1.9.5",
  org.assertj.core;bundle-version="2.1.0"

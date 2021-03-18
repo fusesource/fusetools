@@ -4,4 +4,4 @@ Bundle-Name: Import EL Package Test
 Bundle-SymbolicName: org.jboss.tools.fuse.transformation.editor.tests.integration.ImportELPackageTest
 Bundle-Version: 1.0.0
 Bundle-Vendor: Red Hat
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11

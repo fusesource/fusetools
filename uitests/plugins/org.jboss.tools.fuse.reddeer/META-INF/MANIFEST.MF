@@ -4,7 +4,7 @@ Bundle-Name: %Bundle-Name
 Bundle-SymbolicName: org.jboss.tools.fuse.reddeer;singleton:=true
 Bundle-Version: 11.10.0.qualifier
 Bundle-Activator: org.jboss.tools.fuse.reddeer.Activator
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Require-Bundle: org.eclipse.ui,
  org.eclipse.ui.ide,
  org.eclipse.gef,

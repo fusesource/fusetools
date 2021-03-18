@@ -4,7 +4,7 @@ Bundle-Name: %Bundle-Name
 Bundle-SymbolicName: org.fusesource.ide.camel.model.tests.integration;singleton:=true
 Bundle-Version: 11.10.0.qualifier
 Bundle-Vendor: %Bundle-Vendor
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Require-Bundle: org.junit,
  org.fusesource.ide.camel.model.service.core;bundle-version="10.0.0",
  org.fusesource.ide.foundation.core;bundle-version="10.0.0",

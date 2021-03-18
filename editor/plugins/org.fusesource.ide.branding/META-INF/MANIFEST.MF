@@ -4,7 +4,7 @@ Bundle-Name: %Bundle-Name
 Bundle-SymbolicName: org.fusesource.ide.branding;singleton:=true
 Bundle-Version: 11.10.0.qualifier
 Bundle-Vendor: %Bundle-Vendor
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Bundle-Activator: org.fusesource.ide.branding.Activator
 Bundle-ActivationPolicy: lazy
 Export-Package: org.fusesource.ide.branding,

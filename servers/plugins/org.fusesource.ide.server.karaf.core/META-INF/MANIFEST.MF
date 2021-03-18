@@ -4,7 +4,7 @@ Bundle-Name: %Bundle-Name
 Bundle-SymbolicName: org.fusesource.ide.server.karaf.core;singleton:=true
 Bundle-Version: 11.10.0.qualifier
 Bundle-Vendor: %Bundle-Vendor
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.2.0,4.0.0)",
  org.eclipse.core.resources;bundle-version="[3.2.0,4.0.0)",
  org.eclipse.core.commands;bundle-version="[3.2.0,4.0.0)",

@@ -4,7 +4,7 @@ Bundle-Name: %Bundle-Name
 Bundle-SymbolicName: org.fusesource.ide.jmx.camel;singleton:=true
 Bundle-Version: 11.10.0.qualifier
 Bundle-Vendor: %Bundle-Vendor
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Require-Bundle: org.jboss.tools.foundation.ui;bundle-version="1.1.0",
  org.jboss.tools.jmx.core;bundle-version="1.6.0",
  org.jboss.tools.jmx.jvmmonitor.core;bundle-version="1.6.0",

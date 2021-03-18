@@ -4,7 +4,7 @@ Bundle-Name: %Bundle-Name
 Bundle-SymbolicName: org.fusesource.ide.jmx.commons;singleton:=true
 Bundle-Version: 11.10.0.qualifier
 Bundle-Vendor: %Bundle-Vendor
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Export-Package: org.fusesource.ide.jmx.commons,
  org.fusesource.ide.jmx.commons.backlogtracermessage,
  org.fusesource.ide.jmx.commons.labelproviders,

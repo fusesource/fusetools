@@ -4,7 +4,7 @@ Bundle-Name: %Bundle-Name
 Bundle-SymbolicName: org.fusesource.ide.jsonschema2pojo-0.4.13
 Bundle-Version: 11.10.0.qualifier
 Bundle-Vendor: %Bundle-Vendor
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Bundle-ClassPath: lib/jsonschema2pojo-core-0.4.13.jar,
  .
 Require-Bundle: com.fasterxml.jackson.core.jackson-annotations,

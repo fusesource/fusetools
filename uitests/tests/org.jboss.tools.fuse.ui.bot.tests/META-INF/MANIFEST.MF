@@ -48,7 +48,7 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.draw2d;bundle-version="3.3.1.1",
  org.assertj.core;bundle-version="2.1.0"
 Bundle-ActivationPolicy: lazy
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Bundle-Vendor: %Bundle-Vendor
 Eclipse-RegisterBuddy: org.apache.log4j
 Eclipse-BundleShape: dir

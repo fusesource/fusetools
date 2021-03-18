@@ -5,7 +5,7 @@ Bundle-SymbolicName: org.fusesource.ide.camel.editor;singleton:=true
 Bundle-Version: 11.10.0.qualifier
 Bundle-Activator: org.fusesource.ide.camel.editor.internal.CamelEditorUIActivator
 Bundle-Vendor: %Bundle-Vendor
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Export-Package: org.fusesource.ide.camel.editor,
  org.fusesource.ide.camel.editor.behaviours;x-friends:="org.fusesource.ide.camel.editor.tests.integration",
  org.fusesource.ide.camel.editor.component.wizard;x-friends:="org.fusesource.ide.camel.editor.tests.integration",

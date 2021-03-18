@@ -3,7 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: %Bundle-Name
 Bundle-SymbolicName: org.fusesource.ide.launcher.tests.integration
 Bundle-Version: 11.10.0.qualifier
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-11
 Require-Bundle: org.junit,
  org.assertj.core;bundle-version="2.1.0",
  org.jboss.tools.locus.mockito;bundle-version="1.9.5",

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
@@ -8,13 +8,11 @@
 	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
 	<classpathentry kind="src" path="src/"/>
 	<classpathentry exported="true" kind="lib" path="libs/ant-launcher.jar"/>
-	<classpathentry exported="true" kind="lib" path="libs/ant-nodeps.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/ant.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/args4j.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/asm.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/camel-core.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/camel-spring.jar"/>
-	<classpathentry exported="true" kind="lib" path="libs/classworlds.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/commons-beanutils.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/commons-collections.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/commons-digester.jar"/>
@@ -55,7 +53,6 @@
 	<classpathentry exported="true" kind="lib" path="libs/junit.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/log4j.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/plexus-archiver.jar"/>
-	<classpathentry exported="true" kind="lib" path="libs/plexus-container-default.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/plexus-io.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/plexus-utils.jar"/>
 	<classpathentry exported="true" kind="lib" path="libs/slf4j-api.jar"/>
