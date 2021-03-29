@@ -818,6 +818,24 @@
               				</fileset>
             			</configuration>
           			</execution>
+          			
+          			<!-- SIMPLE-OSE-SPRINGBOOT TEMPLATE for Fuse 7.9-->
+          			<execution>
+            			<id>create-template-simple-ose-springboot-fuse7.9</id>
+            			<goals>
+              				<goal>copy</goal>
+            			</goals>
+            			<phase>generate-resources</phase>
+            			<configuration>
+              				<fileset>
+                				<directory>template-sources/simple/ose/simple-ose-log-springboot-fuse7.9</directory>
+                				<includes>
+                  					<include>**</include>
+                				</includes>
+                				<outputDirectory>templates/template-simple-ose-log-springboot-fuse7.9.zip</outputDirectory>
+              				</fileset>
+            			</configuration>
+          			</execution>
 				</executions>
       		</plugin>
 

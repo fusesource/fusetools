@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2018 Red Hat, Inc.
+ * Copyright (c) 2021 Red Hat, Inc.
  * Distributed under license by Red Hat, Inc. All rights reserved.
  * This program is made available under the terms of the
  * Eclipse Public License v1.0 which accompanies this distribution,
@@ -24,7 +24,7 @@ import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 
 @RunWith(Parameterized.class)
-public class OSESpringBootXMLTemplateForFuse78Test {
+public class OSESpringBootXMLTemplateForFuse79Test {
 
 	@Parameter
 	public String version;
@@ -35,9 +35,8 @@ public class OSESpringBootXMLTemplateForFuse78Test {
 	@Parameters(name = "{0} should be compatible? {1}")
 	public static Collection<Object[]> data() {
 		return Arrays.asList(new Object[][] {
-			{ "2.24.0", false },
-			{ "2.23.2.fuse-790XXX-redhat-X", false },
-			{ "2.23.2.fuse-780XXX-redhat-X", true },
+			{ "2.23.2.fuse-790XXX-redhat-X", true },
+			{ "2.23.2.fuse-780XXX-redhat-X", false },
 			{ "2.23.2.fuse-770010-redhat-00001", false },
 			{ "2.21.0.fuse-710XXX-redhat-X", false },
 			{ "2.21.1", false },
@@ -51,7 +50,7 @@ public class OSESpringBootXMLTemplateForFuse78Test {
 	
 	@Test
 	public void testIsCompatible() throws Exception {
-		assertThat(new OSESpringBootXMLTemplateForFuse78().isCompatible(new EnvironmentData(version, null, FuseRuntimeKind.SPRINGBOOT))).isEqualTo(isCompatible);
+		assertThat(new OSESpringBootXMLTemplateForFuse79().isCompatible(new EnvironmentData(version, null, FuseRuntimeKind.SPRINGBOOT))).isEqualTo(isCompatible);
 	}
 
 }
