@@ -203,6 +203,14 @@
           weight="50">
     </projectTemplate>
     <projectTemplate
+          class="org.fusesource.ide.projecttemplates.impl.simple.OSESpringBootXMLTemplateForFuse79"
+          description="%template.simple.osespringboot.xml.description"
+          id="org.fusesource.ide.projecttemplates.oseSpringBootv79"
+          keywords="ose openshift springboot"
+          name="%template.simple.osespringboot.xml.name"
+          weight="50">
+    </projectTemplate>
+    <projectTemplate
           category="fuse.projecttemplates.jbossfuse.advanced"
           class="org.fusesource.ide.projecttemplates.impl.medium.CXfCodeFirstProjectTemplateForFuse6"
           description="%template.medium.cxf.code.first.description"

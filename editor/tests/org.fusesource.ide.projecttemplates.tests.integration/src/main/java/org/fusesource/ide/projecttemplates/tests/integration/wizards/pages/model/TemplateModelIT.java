@@ -41,9 +41,9 @@ public class TemplateModelIT {
 	
 	@Test
 	public void testCorrectNumberOfTopLevelTemplates() throws Exception {
-		//currently only 10: 5 SpringBoot, 5 EAP
+		//currently only 11: 6 SpringBoot, 5 EAP (no EAP for Fuse 7.9 yet)
 		List<TemplateOrCategoryItem> rootTemplates = new TemplateModel().getRootTemplates();
-		assertThat(rootTemplates.stream().filter(item -> item instanceof TemplateItem).collect(Collectors.toList())).hasSize(10);
+		assertThat(rootTemplates.stream().filter(item -> item instanceof TemplateItem).collect(Collectors.toList())).hasSize(11);
 	}
 	
 	@Test
